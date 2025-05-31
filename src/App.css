@@ -1,0 +1,178 @@
+.intro-name {
+  text-align: center;
+  padding: 40px 10% 10px;
+  background-color: #ffffff;
+}
+
+.intro-name h1 {
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: #1e1e1e;
+  margin: 0;
+}
+
+/* Use Poppins font globally */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #202124;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+
+/* Navbar links */
+.navbar nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.navbar nav a:hover {
+  color: #3ea6ff;
+}
+
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 10%;
+  background: white;
+}
+
+.hero-text {
+  max-width: 60%;
+}
+
+.hero-image img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.section {
+  padding: 40px 10%;
+  background: #fff;
+  margin: 20px 0;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #0078D4;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.project-card {
+  background-color: #1e1e1e;
+  color: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  padding-bottom: 15px;
+}
+
+.project-card:hover {
+  transform: scale(1.03);
+}
+
+.project-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #333;
+}
+
+.project-card h3 {
+  margin: 15px 20px 5px;
+  font-size: 1.2rem;
+}
+
+.project-card p {
+  margin: 5px 20px 15px;
+  font-size: 0.95rem;
+  color: #ddd;
+}
+
+.project-card a {
+  margin-left: 20px;
+  font-weight: 600;
+  color: #3ea6ff;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.project-card a i {
+  margin-right: 6px;
+}
+
+.contact-section {
+  padding: 60px 10%;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #222;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1rem;
+}
+
+.contact-item i {
+  font-size: 1.2rem;
+  color: #0078d4;
+}
+
+.contact-item a {
+  text-decoration: none;
+}
+
+.link-label {
+  font-weight: bold;
+  color: #000;
+}
