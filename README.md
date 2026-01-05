@@ -1,74 +1,87 @@
- HEAD
-# Getting Started with Create React App
+# Pooja Manjunatha Swamy - Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive portfolio website built with Next.js, TypeScript, Tailwind CSS, and Framer Motion.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- **Modern Tech Stack**: Next.js 14, TypeScript, Tailwind CSS
+- **Smooth Animations**: Framer Motion for engaging user interactions
+- **Responsive Design**: Optimized for all screen sizes
+- **Glass Morphism**: Modern glass-card design elements
+- **Performance Optimized**: Static site generation for fast loading
+- **SEO Friendly**: Proper meta tags and semantic HTML
 
-### `npm start`
+## 🛠️ Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Framework**: Next.js 14
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+- **Deployment**: GitHub Pages
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Getting Started
 
-### `npm test`
+### Prerequisites
+- Node.js 18+ and npm
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation
 
-### `npm run build`
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/poojaswammy/poojaswammy.github.io.git
+   cd poojaswammy.github.io
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+   Open [http://localhost:3000](http://localhost:3000) to view in browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Build Commands
 
-### `npm run eject`
+```bash
+# Development server
+npm run dev
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Production build
+npm run build
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Start production server
+npm run start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Export static files
+npm run export
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Deploy to GitHub Pages
+npm run deploy
+```
 
-## Learn More
+## 🎨 Design System
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Colors
+- **Primary**: Pink gradient (#ff6fa3)
+- **Secondary**: Blue gradient (#6fb8ff) 
+- **Accent**: Gold gradient (#ffd37a)
+- **Background**: Soft gradients with glass morphism
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Typography
+- **Font**: Poppins (Google Fonts)
+- **Weights**: 300, 400, 500, 600, 700, 800, 900
 
-### Code Splitting
+## 📧 Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Pooja Manjunatha Swamy**
+- Email: poojam742000@gmail.com
+- Phone: +1 571-241-2282
+- Location: Fairfax, Virginia
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# Pooja-Portfolio-
-e3daa342972569f273cb68d0f0b885c742968962
+*Built with ❤️ using modern web technologies*
