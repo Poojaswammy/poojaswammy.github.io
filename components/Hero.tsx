@@ -53,7 +53,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-xl lg:text-2xl text-gray-200 font-light"
         >
-          Data Analytics Engineer specializing in Machine Learning & Full-Stack Analytics
+          Data Analyst & Web Developer
         </motion.p>
       </div>
 

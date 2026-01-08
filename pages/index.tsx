@@ -535,14 +535,13 @@ export default function Home() {
                   className="glass-card p-8 rounded-2xl"
                 >
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
-                    <h3 className="text-2xl font-bold text-white">AI/ML Developer — Crux Acuity</h3>
-                    <span className="text-lg text-primary-400 font-semibold">2025 – Present</span>
+                    <h3 className="text-2xl font-bold text-white">Web Developer & Project Lead — CARP Lab</h3>
+                    <span className="text-lg text-primary-400 font-semibold">July 2025 – Present</span>
                   </div>
                   <ul className="space-y-2 text-gray-200">
-                    <li>• Design and implement front-end modules for an internal proposal tool using modern JavaScript/TypeScript and component-based UI patterns.</li>
-                    <li>• Develop designers and refactor existing code to improve readability, maintainability, and performance.</li>
-                    <li>• Implement and maintain unit and integration tests for critical user flows and API interactions, increasing test coverage and reducing regressions.</li>
-                    <li>• Use Git-based workflows, CI/CD, and agile practices to deliver incremental releases.</li>
+                    <li>• Led end-to-end migration and redesign of the CARP Lab website using WordPress and Hostinger. Configured hosting, domains, SSL, themes, plugins, and content architecture.</li>
+                    <li>• Cleaned legacy HTML, fixed broken links, standardized navigation, and improved UX and responsiveness. Implementing Newsletters, Secure Payments, Subscriptions forms, monitoring the analytics.</li>
+                    <li>• Collaborated with faculty to design web-based platforms for research dissemination and digital learning tools. Implementing the SEO.</li>
                   </ul>
                 </motion.div>
 
@@ -554,11 +553,46 @@ export default function Home() {
                   className="glass-card p-8 rounded-2xl"
                 >
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
-                    <h3 className="text-2xl font-bold text-white">Web & Digital Learning Tools Developer / Research Intern — CARP Lab</h3>
-                    <span className="text-lg text-primary-400 font-semibold">2025 – Present</span>
+                    <h3 className="text-2xl font-bold text-white">UI/UX Developer — Crux Acuity</h3>
+                    <span className="text-lg text-primary-400 font-semibold">Sept 2025 – Nov 2025</span>
                   </div>
                   <ul className="space-y-2 text-gray-200">
-                    <li>• Rebuilt the CARP Lab website, migrated content, and prototyped an LLM/vector-search layer for Q&A over research.</li>
+                    <li>• Developed and refactored frontend modules using JavaScript and component-based UI patterns. Improved performance, readability, and maintainability of existing web components.</li>
+                    <li>• Writing and Maintaining the unit test cases.</li>
+                    <li>• Followed Git-based workflows, code reviews, and testing practices to ensure stable releases.</li>
+                  </ul>
+                </motion.div>
+
+                <motion.div
+                  initial={{ opacity: 0, x: -50 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  transition={{ duration: 0.8 }}
+                  viewport={{ once: true }}
+                  className="glass-card p-8 rounded-2xl"
+                >
+                  <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                    <h3 className="text-2xl font-bold text-white">Data Analyst & Project Manager — CARP Lab</h3>
+                    <span className="text-lg text-primary-400 font-semibold">July 2025 – Present</span>
+                  </div>
+                  <ul className="space-y-2 text-gray-200">
+                    <li>• Supported research analytics through data-backed web tools and dashboards, prototyped AI-powered Q&A concepts using NLP and vector-search approaches and collaborated with faculty to translate research needs into technical implementations.</li>
+                  </ul>
+                </motion.div>
+
+                <motion.div
+                  initial={{ opacity: 0, x: 50 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  transition={{ duration: 0.8 }}
+                  viewport={{ once: true }}
+                  className="glass-card p-8 rounded-2xl"
+                >
+                  <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                    <h3 className="text-2xl font-bold text-white">Data Analyst — Crux Acuity</h3>
+                    <span className="text-lg text-primary-400 font-semibold">Sept 2025 – Nov 2025</span>
+                  </div>
+                  <ul className="space-y-2 text-gray-200">
+                    <li>• Supported analytics-driven internal tools by building Python- and SQL-based data extraction and transformation workflows, improving data-backed decision-making through testing, validation, and agile Git-based collaboration.</li>
+                    <li>• Collaborated in agile teams using Git-based workflows, pull requests, and sprint-based delivery.</li>
                   </ul>
                 </motion.div>
 
@@ -574,7 +608,10 @@ export default function Home() {
                     <span className="text-lg text-primary-400 font-semibold">Feb 2024 – May 2025</span>
                   </div>
                   <ul className="space-y-2 text-gray-200">
-                    <li>• Mentored 50+ students on data science workflows and built dashboards analyzing 2,500+ tap-in records to inform scheduling.</li>
+                    <li>• Supported students and faculty on technical projects involving dashboards, data visualization, and web tools. Supported development and maintenance of web-based tools, dashboards, and digital interfaces used in academic and student projects.</li>
+                    <li>• Assisted with frontend-related tasks including UI updates, content structuring, and integration of data visualizations into web platforms.</li>
+                    <li>• Conducted workshops and provided technical guidance for interdisciplinary projects.</li>
+                    <li>• Mentored 50+ students on EDA, data cleaning, and visualization workflows; analyzed 2,500+ operational records to identify usage and engagement trends; delivered insights supporting scheduling optimization and resource planning.</li>
                   </ul>
                 </motion.div>
 
@@ -587,11 +624,29 @@ export default function Home() {
                 >
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                     <h3 className="text-2xl font-bold text-white">Software Engineering Trainee — Mphasis Limited</h3>
-                    <span className="text-lg text-primary-400 font-semibold">Sep 2022 – Dec 2023</span>
+                    <span className="text-lg text-primary-400 font-semibold">Aug 2022 – Oct 2022</span>
                   </div>
                   <ul className="space-y-2 text-gray-200">
-                    <li>• Completed training in Java, Spring Boot, and web development fundamentals.</li>
-                    <li>• Developed small-scale applications and gained exposure to software development lifecycle practices.</li>
+                    <li>• Developed a task-tracking web application using Django, HTML, CSS, JavaScript, and SQL. Designed backend logic and database schemas; integrated frontend interfaces with backend services. Worked in an agile SDLC environment using Git and collaborative development practices.</li>
+                    <li>• Applied Python and SQL for data analysis, backend data handling, and query optimization.</li>
+                    <li>• Worked with structured and semi-structured datasets within SDLC and agile frameworks.</li>
+                  </ul>
+                </motion.div>
+
+                <motion.div
+                  initial={{ opacity: 0, x: -50 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  transition={{ duration: 0.8 }}
+                  viewport={{ once: true }}
+                  className="glass-card p-8 rounded-2xl"
+                >
+                  <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                    <h3 className="text-2xl font-bold text-white">Sonar & Naval Systems Analyst (Intern) — BEL</h3>
+                    <span className="text-lg text-primary-400 font-semibold">Sept 2021 – Oct 2021</span>
+                  </div>
+                  <ul className="space-y-2 text-gray-200">
+                    <li>• Analyzed SONAR signal datasets using Python, SQL, FFT, and filtering techniques.</li>
+                    <li>• Documented analytical pipelines aligned with defense research and validation standards.</li>
                   </ul>
                 </motion.div>
               </div>
