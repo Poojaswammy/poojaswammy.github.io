@@ -5,8 +5,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/poojaswammy.github.io' : '',
-  basePath: process.env.NODE_ENV === 'production' ? '/poojaswammy.github.io' : '',
+  // No assetPrefix or basePath needed for username.github.io sites
 }
 
 module.exports = nextConfig
